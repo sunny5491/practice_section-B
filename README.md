@@ -1,2 +1,2 @@
 # practice_section-B
-This is a common repo to experiment coomit, push, pull etc.
+This is a common repo to experiment commit, push, pull etc.
