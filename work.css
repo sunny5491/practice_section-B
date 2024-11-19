@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+.te{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.design{
+    font-size: 0;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20%;
+    margin: auto;
+    border: 10px;
+    border-style: double;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+
+.inte{
+    border: 0px;
+    height: 100px;
+    width: 400px;
+}
+
+.tile{
+    border: 5px solid wheat;
+    height: 90px;
+    width: 90px;
+    display:inline-flex;
+}
