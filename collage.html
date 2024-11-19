@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>CollageBook</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            color: #333; /* Text color */
+            padding: 20px;
+            height: 100vh; /* Full height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            backdrop-filter: blur(5px); /* Blur effect for header */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners for header */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+        }
+
+        h1 {
+            color: #ff6347; /* Vibrant title color */
+            margin-bottom: 20px;
+            font-size: 2.5rem; /* Larger title font */
+        }
+
+        /* Adding a static image in the header */
+        .header-image {
+            width: 200px; /* Adjust the size of the image */
+            margin: 10px 0; /* Space above and below the image */
+            border-radius: 10px; /* Rounded corners for the image */
+        }
+
+        nav {
+            background-color: #333; /* Dark background for navigation */
+            padding: 15px;
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        ul {
+            list-style-type: none; /* Remove default list styling */
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap; /* Wrap items in smaller screens */
+            justify-content: center; /* Center the list items */
+        }
+
+        li {
+            margin: 10px; /* Space between list items */
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px; /* Increased font size */
+            padding: 10px 15px; /* Padding for clickable area */
+            border-radius: 5px; /* Rounded corners for links */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+            display: inline-block; /* For padding to work */
+            color: #fff; /* Default link color */
+        }
+
+        /* Link colors */
+        a:nth-child(1) { background-color: #ff0043; }
+        a:nth-child(2) { background-color: #58fc0d; }
+        a:nth-child(3) { background-color: #2009e9; }
+        a:nth-child(4) { background-color: #6d1177; }
+        a:nth-child(5) { background-color: #f29909; }
+        a:nth-child(6) { background-color: #84ba64; }
+        a:nth-child(7) { background-color: #ff6347; }
+        a:nth-child(8) { background-color: #0e5769; }
+        a:nth-child(9) { background-color: #8fc1a8; }
+        a:nth-child(10) { background-color: #d4eb07; }
+        a:nth-child(11) { background-color: #ffe814; }
+        a:nth-child(12) { background-color: #6ec4bc; }
+        a:nth-child(13) { background-color: #ffffff; }
+        a:nth-child(14) { background-color: #0be6c8; }
+        a:nth-child(15) { background-color: #f81c1c; }
+        a:nth-child(16) { background-color: #bd0068; }
+        a:nth-child(17) { background-color: #240470; }
+        a:nth-child(18) { background-color: #EFF2D8; }
+
+        /* Hover effects */
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+            color: #fff; /* Change text color on hover */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            a {
+                font-size: 18px; /* Decrease font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Livro de Colagem</h1>
+        <!-- Adding a static image in the header -->
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWlsb2Q2MXk0eTNqbGh0YTZzdzhsdDFtZ21pNjJwOXZxNmVxN3J6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dZXzmKGKNiJtDxuwGg/giphy.webp" alt="Collage GIF" class="header-gif" width="200px" height="150px" style="border: solid black 4px;border-radius: 50%;">
+        <nav>
+            <ul>
+                <li><a href="pages/ernstbecker/index.html">Ernst Becker 🌟</a></li>
+                <li><a href="pages/isacGrizante/index.html">Isac Grizante 🎨</a></li>
+                <li><a href="pages/duzzyn/index.html">Duzzyn ✨</a></li>
+                <li><a href="pages/AladianeCosta/index.html">Aladiane Costa 📖</a></li>
+                <li><a href="pages/kelwin/index.html">Kelwin 🖌️</a></li>
+                <li><a href="pages/raphah/index.html">RaphaH 🌈</a></li>
+                <li><a href="pages/ands/index.html">Ands 🎉</a></li>
+                <li><a href="pages/miltonFilho/index.html">Milton Filho 🖍️</a></li>
+                <li><a href="pages/DioneB/index.html">Dione Bastos 📚</a></li>
+                <li><a href="pages/borealissaile/index.html">Borealis Saile 🖼️</a></li>
+                <li><a href="pages/araujo/index.html">Adriano P. Araujo 🖋️</a></li>
+                <li><a href="pages/Serjo/index.html">Serjo 🎵</a></li>
+                <li><a href="pages/Larsenvini/index.html">!Larsen! 🎶</a></li>
+                <li><a href="pages/larissaesidio/index.html">Larissa Esidio 🎭</a></li>
+                <li><a href="pages/gabrielfirmamento/index.html">Gabriel Firmamento 🌌</a></li>
+                <li><a href="pages/wellington/index.html">Wellington 🌿</a></li>
+                <li><a href="pages/arturmnery/index.html">Artur M. Nery 🎇</a></li>
+                <li><a href="pages/BeagleXV/index.html">BeagleXV - Fernando Oliveira 🎨</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
